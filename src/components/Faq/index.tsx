@@ -8,43 +8,49 @@ const Faq = () => {
         <SectionTitle
           subtitle="FAQ"
           title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph=""
           width="640px"
           center
         />
 
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
-          <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-          </div>
-
-          <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
+            <div className="w-full px-4 flex flex-wrap">
+              <SingleFaq
+                question="What industries do you serve?"
+                answer="We serve a diverse range of industries including finance, healthcare, retail, hospitality, education, and more. We have extensive experience working with early-stage startups, small to medium-sized businesses, and large enterprises across various spaces, such as AI and WEB3."
+              />
+              <SingleFaq
+                question="How can your services benefit my business?"
+                answer="Our services can help streamline your business processes, improve operational efficiency, enhance customer experiences, and drive innovation. We tailor our solutions to meet your specific needs and goals, ensuring measurable improvements and tangible results."
+              />
+              <SingleFaq
+                question="What is your development process like?"
+                answer="Our development process includes several stages: discovery and planning, which is important for us to be able to get a full grasp of the problem we are trying to solve, design and prototyping, development, testing and quality assurance, deployment, and ongoing maintenance and support. We follow agile methodologies to ensure flexibility and iterative progress."
+              />
+              <SingleFaq
+                question="Do you provide ongoing maintenance and support after the project is completed?"
+                answer="Yes, we offer ongoing maintenance and support services to ensure your software remains up-to-date, secure, and fully functional. This includes bug fixes, updates, performance monitoring of components that we’ve previously built for you. This does not, however, cover the development of new features outside the ones agreed upon."
+              />
+              <SingleFaq
+                question="What information do you need from me to start a project?"
+                answer="We need a clear understanding of your project goals, requirements, budget, and timeline. Any existing documentation, specifications, or examples of similar projects are also helpful. During our initial consultation, we will guide you through the information we need."
+              />
+             <SingleFaq
+                question="What makes your firm different from other tech consulting and software development companies?"
+                answer="Our firm stands out due to our commitment to quality, customer-centric approach, and deep industry expertise. We focus on building long-term partnerships with our clients, delivering solutions that drive real business value. Our agile methodologies, transparent processes, and experienced team ensure successful project outcomes."
+              />
+              <SingleFaq
+                question="Can you help with scaling an existing project or system?"
+                answer="Absolutely. We have experience in scaling existing systems to handle increased load, adding new features, and improving performance. We can assess your current setup and provide a tailored plan to meet your growing needs."
+              />
+              <SingleFaq
+                question="How do you handle intellectual property and ownership of the developed software?"
+                answer="Upon project completion and full payment, the intellectual property and ownership of the developed software are transferred to you. We ensure all necessary agreements are in place to protect your rights."
+              />
+            </div>
           </div>
         </div>
-      </div>
+        
 
       <div>
         <span className="absolute left-4 top-4 -z-[1]">
