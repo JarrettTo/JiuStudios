@@ -5,38 +5,56 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
-    designation: "UI Designer",
+    name: "Justin To",
+    designation: "CTO and Founder",
     image: "/images/team/team-01.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    githubLink: "https://github.com/JarrettTo",
+    linkedinLink: "https://www.linkedin.com/in/justin-jarrett-to-4a5401202/",
+    instagramLink: "https://www.instagram.com/jarrett_to/",
   },
   {
     id: 2,
-    name: "Jezmin uniya",
-    designation: "Product Designer",
+    name: "Vincent Shi",
+    designation: "CEO and Lead Specialist",
     image: "/images/team/team-02.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
+    githubLink: "/#",
+    linkedinLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
-    designation: "App Developer",
+    name: "Earl Pulido",
+    designation: "Full Stack Engineer",
     image: "/images/team/team-03.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
+    githubLink: "/#",
+    linkedinLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
+    name: "Jose Carlos Regala",
+    designation: "Full Stack Engineer",
     image: "/images/team/team-04.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
+    githubLink: "/#",
+    linkedinLink: "/#",
+    instagramLink: "/#",
+  },
+  {
+    id: 5,
+    name: "Juliana Guillermo",
+    designation: "Full Stack Engineer",
+    image: "/images/team/team-04.png",
+    githubLink: "/#",
+    linkedinLink: "/#",
+    instagramLink: "/#",
+  },
+  {
+    id: 6,
+    name: "Jose Simbillo",
+    designation: "Full Stack Engineer",
+    image: "/images/team/team-04.png",
+    githubLink: "/#",
+    linkedinLink: "/#",
     instagramLink: "/#",
   },
 ];
@@ -52,7 +70,7 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="We're a team of multi-talented full stack developers and engineers with a passion for solving business problems through software and innovation."
             width="640px"
             center
           />
