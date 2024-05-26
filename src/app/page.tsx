@@ -7,6 +7,7 @@ import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import PastProjects from "@/components/PastProjects";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
@@ -29,6 +30,7 @@ export default function Home() {
       <About />
       <CallToAction />
       <Pricing />
+      <PastProjects />
       <Testimonials />
       <Faq />
       <Team />

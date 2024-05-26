@@ -33,7 +33,7 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
-    title: "Pages",
+    title: "Tools",
     newTab: false,
     submenu: [
       {
