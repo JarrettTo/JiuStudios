@@ -31,10 +31,8 @@ export default function Home() {
       <CallToAction />
       <Pricing />
       <PastProjects />
-      <Testimonials />
       <Faq />
       <Team />
-      <HomeBlogSection posts={posts} />
       <Contact />
       <Clients />
     </main>
