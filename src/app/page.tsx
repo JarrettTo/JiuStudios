@@ -15,8 +15,8 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+  title: "Jiu Studios - Scale your business with Software",
+  description: "We specialize in transforming your vision into reality with our innovative software solutions. Whether you're a startup looking to make a mark or an established business aiming to scale new heights, our expert team is here to handle the technical complexities while you focus on driving your success.",
 };
 
 export default function Home() {
