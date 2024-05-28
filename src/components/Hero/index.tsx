@@ -19,7 +19,7 @@ const Hero = () => {
                   Scale your business and startup with our software solutions
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  We specialize in transforming your vision into reality with our innovative software solutions. Whether you're a startup looking to make a mark or an established business aiming to scale new heights, our expert team is here to handle the technical complexities while you focus on driving your success.
+                  We specialize in transforming your vision into reality with our innovative software solutions. Whether you&apos;re a startup looking to make a mark or an established business aiming to scale new heights, our expert team is here to handle the technical complexities while you focus on driving your success.
                 </p>
                 <ul className="mb-14 flex flex-wrap items-center justify-center gap-5">
                   <li>
