@@ -23,12 +23,12 @@ const teamData: TeamType[] = [
   },
   {
     id: 3,
-    name: "Angelo Guerra",
-    designation: "Senior Engineer",
+    name: "Lawrence Lopez",
+    designation: "Chief Marketing Officer",
     image: "/images/team/team-03.jpg",
-    githubLink: "https://github.com/angelocguerra",
-    linkedinLink: "https://www.linkedin.com/in/angelocguerra/",
-    instagramLink: "https://www.instagram.com/angelocguerra/",
+    githubLink: "",
+    linkedinLink: "https://www.linkedin.com/in/lawrence-lopez-4b316a240/",
+    instagramLink: "https://www.instagram.com/lawrizz_lopez/",
   },
   {
     id: 4,
