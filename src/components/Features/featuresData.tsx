@@ -118,7 +118,7 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Desktop Application Development",
-    paragraph: "We deliver top-tier desktop application development, leveraging technologies like Electron and .NET to create seamless, robust, and intuitive applications for all major operating systems that satisfy your user or business requirements.",
+    paragraph: "We deliver top-tier desktop application development, leveraging technologies like Electron and .NET to create seamless, robust, and intuitive desktop applications for all major operating systems that is sure to satisfy whatever user or business requirements you may have.",
     btn: "Learn More",
     btnLink: "/#",
   },
