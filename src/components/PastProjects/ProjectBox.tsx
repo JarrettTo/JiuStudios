@@ -4,7 +4,6 @@ import styles from './projects.module.css';
 import Image from "next/image";
 
 const ProjectBox = ({ project }: { project: Projects }) => {
-
   return (
     <div className="w-full px-4 md:w-1/2 lg:w-1/2 lg:pb-[10px] lg:pt-[20px]">
       <div
@@ -17,13 +16,15 @@ const ProjectBox = ({ project }: { project: Projects }) => {
         <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-11">
           {project.brief_description}
         </p>
-        <Image
-          src={project.image}
-          alt="image"
-          width={1288}
-          height={500}
-          className="h-full w-full object-cover object-center"
-        />
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <Image
+            src={project.image}
+            alt="image"
+            width={1288}
+            height={500}
+            className="h-full w-full object-cover object-center"
+          />
+        </a>
         <p className="mb-2 mt-5 block text-lg font-semibold text-primary">
           Tech Used:
         </p>
