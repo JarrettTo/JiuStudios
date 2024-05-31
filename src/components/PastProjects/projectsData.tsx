@@ -95,7 +95,7 @@ const projectsData: Projects[] = [
     This project not only demonstrated our technical expertise in building complex AI-driven platforms but also underscored our commitment to creating solutions that bring people together and enhance community engagement through personalized experiences.
     `,
     image: "/images/projects/project_5.png",
-    link: "/"
+    link: "https://www.matchstix.ph"
   },
   {
     id: 6,
